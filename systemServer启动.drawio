@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T09:45:26.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YdSQCgiVAX5ggRtivJuT" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T09:45:46.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="kM733Nu_qyuf805cVN7d" version="22.1.8" type="github">
   <diagram name="Page-1" id="YmJoYWuQGjE3YAbMl2xC">
     <mxGraphModel dx="1191" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,22 +19,22 @@
         <mxCell id="EVXR19roOYmY0BXJZwpf-5" value="调用WMS,PMS,PKMS,DMS,AMS的systemReady方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="195" y="440" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EVXR19roOYmY0BXJZwpf-6" value="PHASE 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EVXR19roOYmY0BXJZwpf-6" value="PHASE 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="250" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EVXR19roOYmY0BXJZwpf-7" value="PHASE_WAIT_FOR_DEFAULT_DISPLAY(100)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EVXR19roOYmY0BXJZwpf-7" value="PHASE_WAIT_FOR_DEFAULT_DISPLAY(100)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="305" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EVXR19roOYmY0BXJZwpf-9" value=" PHASE_SYSTEM_SERVICES_READY (500)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EVXR19roOYmY0BXJZwpf-9" value=" PHASE_SYSTEM_SERVICES_READY (500)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="400" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EVXR19roOYmY0BXJZwpf-10" value=" PHASE_ACTIVITY_MANAGER_READY&amp;nbsp; (550)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EVXR19roOYmY0BXJZwpf-10" value=" PHASE_ACTIVITY_MANAGER_READY&amp;nbsp; (550)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="500" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EVXR19roOYmY0BXJZwpf-11" value=" PHASE_THIRD_PARTY_APPS_CAN_START&amp;nbsp;(600)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EVXR19roOYmY0BXJZwpf-11" value=" PHASE_THIRD_PARTY_APPS_CAN_START&amp;nbsp;(600)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="600" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EVXR19roOYmY0BXJZwpf-12" value=" PHASE_BOOT_COMPLETED&amp;nbsp;(1000)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="EVXR19roOYmY0BXJZwpf-12" value=" PHASE_BOOT_COMPLETED&amp;nbsp;(1000)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="500" y="804" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EVXR19roOYmY0BXJZwpf-14" value="调用其他服务的systemReady方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
