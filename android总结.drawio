@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T10:26:11.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kP_G9o9f79wxNUjm6NFc" version="22.1.17" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-01-07T10:55:48.664Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7mdCYxzAGTnswzO4q1Z_" version="22.1.17" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -531,10 +531,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wv4OdGhpxvR4QIPtLJUD" name="蓝牙服务启动">
-    <mxGraphModel dx="2074" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3728" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-91" value="SystemServer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="910" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-90" value="Bluetooth app" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="270" width="560" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-1" value="SystemServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="80" y="310" width="100" height="640" as="geometry" />
         </mxCell>
@@ -659,7 +665,7 @@
           <mxGeometry x="70" y="990" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-25" value="BluetoothServiceBinder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="794" y="310" width="140" height="660" as="geometry" />
+          <mxGeometry x="794" y="310" width="140" height="1340" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-25">
           <mxGeometry x="65" y="320" width="10" height="80" as="geometry" />
@@ -811,6 +817,113 @@
         <mxCell id="1QRbClgfhEhxsGlMpsp3-89" value="mConnextion.onServiceConnected" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-88" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1050" y="1305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-92" value="&lt;h2&gt;&lt;font style=&quot;font-weight: normal; font-size: 12px;&quot;&gt;Context&lt;/font&gt;&lt;/h2&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="310" width="140" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-93" value="其他应用进程" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="310" width="100" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-98" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;ContextImpl&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="310" width="100" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-101" value="&lt;h2 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="343" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-105" value="SystemServiceRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-1178" y="310" width="160" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-114" value="BluetoothFrameworkInitializer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-990" y="310" width="170" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-118" value="BluetoothManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-800" y="310" width="170" height="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-122" value="BluetoothAdapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-620" y="310" width="100" height="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="-795" y="910" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-95" value="&lt;h2 style=&quot;border-color: var(--border-color); background-color: rgb(251, 251, 251); font-size: 17px;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/h2&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-94" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-930.5" y="915" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-97" value="getSystemService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1QRbClgfhEhxsGlMpsp3-95">
+          <mxGeometry x="-0.0103" y="17" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-103" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="-645" y="910" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-104" value="getSystemService" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-790.5" y="926" as="sourcePoint" />
+            <mxPoint x="-645" y="926" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-110" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="-483" y="930" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-111" value="getSystemService" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-110" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640.5" y="935" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-116" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="-290" y="943" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-117" value="registerServiceWrappers" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-116" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-478.5" y="948" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-120" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="-100" y="950" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-124" value="createAdapter" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-123" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="967" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-121" value="new" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-120" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-285.5" y="955" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-123" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="45" y="962" width="10" height="278" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-127" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="50" y="1065" width="10" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-128" value="new" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="1QRbClgfhEhxsGlMpsp3-127" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1045" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="1075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-129" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="55" y="1110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-130" value="getBluetoothService(mManagerCallback&lt;br&gt;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="1QRbClgfhEhxsGlMpsp3-129" parent="1QRbClgfhEhxsGlMpsp3-122">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="60" y="1090" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1QRbClgfhEhxsGlMpsp3-126" value="通过ServiceManager得到BluetoothServiceBinder的代理" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="863.5" y="1338" as="sourcePoint" />
+            <mxPoint x="-570.5" y="1338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
