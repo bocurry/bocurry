@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T14:47:49.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5GnX3Bz0mSgitF1j66Y-" version="22.1.17" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-01-07T14:48:49.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="WpXkSypvIHvPQgr2NxLy" version="22.1.17" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -531,7 +531,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wv4OdGhpxvR4QIPtLJUD" name="蓝牙服务启动">
-    <mxGraphModel dx="3728" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3629" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -688,7 +688,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-32" value="添加binder服务到ServiceManager中：&lt;br&gt;服务名字：BLUETOOTH_MANAGER_SERVICE&lt;br&gt;binder服务：BluetoothServiceBinder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="546" y="840" width="270" height="30" as="geometry" />
+          <mxGeometry x="546" y="830" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-34" value="startBootPhase" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="1QRbClgfhEhxsGlMpsp3-33" parent="1">
           <mxGeometry relative="1" as="geometry">
