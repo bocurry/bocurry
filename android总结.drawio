@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T14:45:46.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kh0YrxWR9CLMzKCxSTtK" version="22.1.17" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-01-07T14:46:54.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BQgrUrbk1sKKuJYTu95p" version="22.1.17" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -536,7 +536,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1QRbClgfhEhxsGlMpsp3-137" value="其他应用进程" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1446" y="260" width="1220" height="110" as="geometry" />
+          <mxGeometry x="-1270" y="270" width="1220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-91" value="SystemServer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="270" width="910" height="90" as="geometry" />
@@ -826,28 +826,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-92" value="&lt;h2&gt;&lt;font style=&quot;font-weight: normal; font-size: 12px;&quot;&gt;Context&lt;/font&gt;&lt;/h2&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-1256" y="310" width="140" height="1150" as="geometry" />
+          <mxGeometry x="-1092" y="310" width="140" height="1150" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-93" value="其他应用进程" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-1376" y="310" width="100" height="1170" as="geometry" />
+          <mxGeometry x="-1212" y="310" width="100" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-98" value="&lt;h2&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;ContextImpl&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-1086" y="310" width="100" height="1160" as="geometry" />
+          <mxGeometry x="-922" y="310" width="100" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-101" value="&lt;h2 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1126" y="343" width="20" height="60" as="geometry" />
+          <mxGeometry x="-962" y="343" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-105" value="SystemServiceRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-954" y="310" width="160" height="1180" as="geometry" />
+          <mxGeometry x="-790" y="310" width="160" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-114" value="BluetoothFrameworkInitializer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-766" y="310" width="170" height="1250" as="geometry" />
+          <mxGeometry x="-602" y="310" width="170" height="1250" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-118" value="BluetoothManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-576" y="310" width="170" height="1270" as="geometry" />
+          <mxGeometry x="-412" y="310" width="170" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-122" value="BluetoothAdapter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-396" y="310" width="100" height="1360" as="geometry" />
+          <mxGeometry x="-232" y="310" width="100" height="1360" as="geometry" />
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1QRbClgfhEhxsGlMpsp3-122">
           <mxGeometry x="-795" y="910" width="10" height="80" as="geometry" />
@@ -929,17 +929,17 @@
         <mxCell id="1QRbClgfhEhxsGlMpsp3-126" value="通过ServiceManager得到BluetoothServiceBinder（IBluetoothManager）的代理" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="863.5" y="1338" as="sourcePoint" />
-            <mxPoint x="-350" y="1338" as="targetPoint" />
+            <mxPoint x="-180" y="1338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-133" value="registerAdapter (mManagerCallback)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;dashed=1;" edge="1" target="1QRbClgfhEhxsGlMpsp3-132" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-330" y="1455" as="sourcePoint" />
+            <mxPoint x="-170" y="1455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1QRbClgfhEhxsGlMpsp3-134" value="return AdapterServiceBinder（IBluetooth&lt;a style=&quot;mso-comment-reference:袁程波_1;mso-comment-date:20240105T1426&quot;&gt;）的代理&lt;/a&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="1QRbClgfhEhxsGlMpsp3-132" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-330" y="1510" as="targetPoint" />
+            <mxPoint x="-170" y="1510" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
