@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T02:27:16.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yKCiu153N95igBb-sr0Q" version="22.1.16" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-01-08T02:30:00.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VuHQD7arFWB60e14Mfm6" version="22.1.16" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1013,16 +1013,16 @@
           <mxGeometry y="58" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SpjCShYrT3UFkR1c5Dni-23" value="BluetoothAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="3030" width="160" height="86" as="geometry" />
+          <mxGeometry x="-200" y="3030" width="230" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="SpjCShYrT3UFkR1c5Dni-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SpjCShYrT3UFkR1c5Dni-23" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="SpjCShYrT3UFkR1c5Dni-24" value="+mManagerService:IBluetoothManager&lt;br&gt;+ mService:IBluetooth&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SpjCShYrT3UFkR1c5Dni-23" vertex="1">
+          <mxGeometry y="26" width="230" height="54" as="geometry" />
         </mxCell>
         <mxCell id="SpjCShYrT3UFkR1c5Dni-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="SpjCShYrT3UFkR1c5Dni-23" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="80" width="230" height="8" as="geometry" />
         </mxCell>
         <mxCell id="SpjCShYrT3UFkR1c5Dni-26" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="SpjCShYrT3UFkR1c5Dni-23" vertex="1">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="88" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="SpjCShYrT3UFkR1c5Dni-27" value="AdapterService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="3010" width="160" height="86" as="geometry" />
