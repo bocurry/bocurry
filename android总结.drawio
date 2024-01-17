@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T09:13:33.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PrefoQArDyvrwMFvtNMJ" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-17T09:19:50.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="w2x4B4dhEtY39DT83_JK" version="22.1.18" type="github" pages="7">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2304" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1908,16 +1908,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g9nk4OXAdtzKckJOKH_e-25" value="WifiManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="-240" width="160" height="86" as="geometry" />
+          <mxGeometry x="680" y="-280" width="180" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="g9nk4OXAdtzKckJOKH_e-26" value="- field:&amp;nbsp;IWifiManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="g9nk4OXAdtzKckJOKH_e-25">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="g9nk4OXAdtzKckJOKH_e-26" value="- mService:&amp;nbsp;IWifiManager&lt;br&gt;这个IWifiManager实际上是IWifiManager的aidl接口的中间编译产物IWifiManager.java" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="g9nk4OXAdtzKckJOKH_e-25">
+          <mxGeometry y="26" width="180" height="64" as="geometry" />
         </mxCell>
         <mxCell id="g9nk4OXAdtzKckJOKH_e-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="g9nk4OXAdtzKckJOKH_e-25">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="90" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="g9nk4OXAdtzKckJOKH_e-28" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="g9nk4OXAdtzKckJOKH_e-25">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
+          <mxGeometry y="98" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="g9nk4OXAdtzKckJOKH_e-29" value="Binder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="248" y="-50" width="160" height="86" as="geometry" />
@@ -2260,6 +2260,18 @@
         </mxCell>
         <mxCell id="uyrRUrz7EDCgS-y_Tjwx-52" value="做更进一步的初始化工作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="590" y="-1930" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QRM_MEJk4QX80DuWHT7Y-1" value="WifiManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-570" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="QRM_MEJk4QX80DuWHT7Y-2" value="+ mService: IWifiManager" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QRM_MEJk4QX80DuWHT7Y-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QRM_MEJk4QX80DuWHT7Y-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="QRM_MEJk4QX80DuWHT7Y-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QRM_MEJk4QX80DuWHT7Y-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QRM_MEJk4QX80DuWHT7Y-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
