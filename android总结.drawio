@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T09:22:25.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="SR5KKRS4ZXSKmbBw4cdp" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-17T09:24:01.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="daHnUzZ_hjDFEw6rQ56x" version="22.1.18" type="github" pages="7">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2304" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1816,7 +1816,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eYZJmYugkudFut5ePzfB" name="Wifi服务启动">
-    <mxGraphModel dx="3128" dy="3922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2230" dy="3442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2189,7 +2189,7 @@
         <mxCell id="VSViiWbdbNG7EH8zlOKT-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VSViiWbdbNG7EH8zlOKT-8">
           <mxGeometry x="75" y="224" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VSViiWbdbNG7EH8zlOKT-10" value="BluetoothFrameworkInitializer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="VSViiWbdbNG7EH8zlOKT-10" value="WifiFrameworkInitializer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-422" y="-2330" width="170" height="1249" as="geometry" />
         </mxCell>
         <mxCell id="VSViiWbdbNG7EH8zlOKT-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="VSViiWbdbNG7EH8zlOKT-10">
@@ -2209,7 +2209,7 @@
             <mxPoint x="-780" y="215" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VSViiWbdbNG7EH8zlOKT-16" value="getSystemService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSViiWbdbNG7EH8zlOKT-15">
+        <mxCell id="VSViiWbdbNG7EH8zlOKT-16" value="getSystemService(Context.WIFI_SERVICE)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VSViiWbdbNG7EH8zlOKT-15">
           <mxGeometry x="-0.0103" y="17" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -2226,8 +2226,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VSViiWbdbNG7EH8zlOKT-19" value="registerServiceWrappers" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="VSViiWbdbNG7EH8zlOKT-14" target="VSViiWbdbNG7EH8zlOKT-11">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0356" y="4" relative="1" as="geometry">
             <mxPoint x="-390" y="244" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VSViiWbdbNG7EH8zlOKT-20" value="createAdapter" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="VSViiWbdbNG7EH8zlOKT-14" target="VSViiWbdbNG7EH8zlOKT-22">
