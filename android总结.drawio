@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:00:30.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2SLBYX9twmZPN8qLrjcb" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-17T08:12:26.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uVcokDmdFLqhVz90fNar" version="22.1.18" type="github" pages="7">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2440" dy="1301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2304" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -474,7 +474,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wv4OdGhpxvR4QIPtLJUD" name="蓝牙服务启动">
-    <mxGraphModel dx="3728" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4617" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1743,8 +1743,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eYZJmYugkudFut5ePzfB" name="Page-10">
-    <mxGraphModel dx="1728" dy="2922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+  <diagram id="eYZJmYugkudFut5ePzfB" name="Wifi服务启动">
+    <mxGraphModel dx="1012" dy="3540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2040,6 +2040,94 @@
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="700" y="-750" as="sourcePoint" />
             <mxPoint x="520" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-1" value="SystemServer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="148" y="-2310" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-1">
+          <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-4" value="startOtherService" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uyrRUrz7EDCgS-y_Tjwx-3" parent="uyrRUrz7EDCgS-y_Tjwx-1">
+          <mxGeometry x="-0.0588" relative="1" as="geometry">
+            <mxPoint x="52" y="50" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="82" y="80" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-2" value="SystemServiceManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="290" y="-2310" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-2">
+          <mxGeometry x="65" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-2">
+          <mxGeometry x="70" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-14" value="loadClassFromLoader" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uyrRUrz7EDCgS-y_Tjwx-13" parent="uyrRUrz7EDCgS-y_Tjwx-2">
+          <mxGeometry x="0.0013" relative="1" as="geometry">
+            <mxPoint x="75" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-2">
+          <mxGeometry x="70" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-16" value="startService" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uyrRUrz7EDCgS-y_Tjwx-15" parent="uyrRUrz7EDCgS-y_Tjwx-2">
+          <mxGeometry x="0.0013" relative="1" as="geometry">
+            <mxPoint x="75" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="200" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-11" value="startServiceFromJar（WifiService）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="0.0323" relative="1" as="geometry">
+            <mxPoint x="200" y="-2220" as="sourcePoint" />
+            <mxPoint x="355" y="-2220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-18" value="WifiService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="540" y="-2310" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-18">
+          <mxGeometry x="46" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-20" value="new" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="uyrRUrz7EDCgS-y_Tjwx-19" parent="1" source="uyrRUrz7EDCgS-y_Tjwx-15">
+          <mxGeometry x="0.0008" relative="1" as="geometry">
+            <mxPoint x="516" y="-2105" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-22" value="WifiServiceImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="910" y="-2310" width="100" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-22">
+          <mxGeometry x="45" y="230" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-24" value="new" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="uyrRUrz7EDCgS-y_Tjwx-23" parent="1" source="uyrRUrz7EDCgS-y_Tjwx-18">
+          <mxGeometry x="0.0318" relative="1" as="geometry">
+            <mxPoint x="675" y="-2095" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-26" value="WifiInjector" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="720" y="-2310" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="uyrRUrz7EDCgS-y_Tjwx-26">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uyrRUrz7EDCgS-y_Tjwx-28" value="new" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="uyrRUrz7EDCgS-y_Tjwx-27" parent="1" source="uyrRUrz7EDCgS-y_Tjwx-18">
+          <mxGeometry x="-0.4524" y="-5" relative="1" as="geometry">
+            <mxPoint x="885" y="-2075" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
