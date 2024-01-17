@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T09:28:36.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="02u04DIJnAaB1xhA_K6z" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-17T09:28:48.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="r7Gh7Bqtb0S-gV--YqIM" version="22.1.18" type="github" pages="7">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2304" dy="1229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1821,7 +1821,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uyrRUrz7EDCgS-y_Tjwx-53" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;SystemServer进程&lt;/b&gt;&lt;/font&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-2370" width="1250" height="110" as="geometry" />
+          <mxGeometry x="130" y="-2370" width="1100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g9nk4OXAdtzKckJOKH_e-1" value="WifiService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="450" width="160" height="86" as="geometry" />
