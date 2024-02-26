@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T09:37:04.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="5qRmAy53CFiWYBdWrN4K" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-26T09:37:18.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="v33EKYhRioss3Hh9KANG" version="23.1.1" type="github" pages="7">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1671,7 +1671,7 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-122" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1376" y="630" as="sourcePoint" />
-            <mxPoint x="1806" y="630" as="targetPoint" />
+            <mxPoint x="1780" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-123" value="HAL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=27;" parent="yNPcAZxTHAfbkra_I7F4-122" vertex="1" connectable="0">
