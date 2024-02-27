@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T07:22:53.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="8a-tQ2AjJ0jex0r86mws" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-27T07:23:35.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="J5K8O_VDbH9boQTCkQt9" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2247,7 +2247,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ul2Gvzj0HRNXM7a2pW-r" name="ADAS接口架构">
-    <mxGraphModel dx="1688" dy="1527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
