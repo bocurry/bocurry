@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T07:56:46.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2NBSjIGRdK6AJmNxpvk6" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-27T08:16:01.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1wBJJbLMNu4Ecige9h4T" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2504,14 +2504,14 @@
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-58" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1440" y="430" as="sourcePoint" />
-            <mxPoint x="1440" y="-40" as="targetPoint" />
+            <mxPoint x="1440" y="440" as="sourcePoint" />
+            <mxPoint x="1440" y="-30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-61" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1610" y="430" as="sourcePoint" />
-            <mxPoint x="1610" y="-40" as="targetPoint" />
+            <mxPoint x="1610" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
@@ -2557,6 +2557,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lj8UPPO37LnzZvMhCK-w-6" value="SystemServer进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="lj8UPPO37LnzZvMhCK-w-5">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-7" value="hsae.hardware.meterserver@1.0-service" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="-190" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="-40" as="sourcePoint" />
+            <mxPoint x="1610" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-9" value="hsae.hardware.meterserver@1.0-service进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="lj8UPPO37LnzZvMhCK-w-8">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
