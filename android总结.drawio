@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T07:43:47.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="igVwFpwZ4QJMTue20rUQ" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-27T07:56:46.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2NBSjIGRdK6AJmNxpvk6" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2405,7 +2405,7 @@
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#E07A5F;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="812" y="194.5" as="sourcePoint" />
+            <mxPoint x="820" y="195" as="sourcePoint" />
             <mxPoint x="1047.9999999999995" y="194.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -2437,9 +2437,6 @@
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-37">
           <mxGeometry x="74.66666666666666" y="150" width="10.666666666666666" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="uLsRn0Ntljifrc6Kd09A-43" value="send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-37">
-          <mxGeometry x="-5" y="140" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="uLsRn0Ntljifrc6Kd09A-24">
           <mxGeometry relative="1" as="geometry">
@@ -2526,6 +2523,42 @@
         <mxCell id="uLsRn0Ntljifrc6Kd09A-63" value="meter_trans" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="uLsRn0Ntljifrc6Kd09A-62">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint x="-4" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uLsRn0Ntljifrc6Kd09A-43" value="send" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-175" y="-40" as="sourcePoint" />
+            <mxPoint x="170" y="-39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-2" value="应用进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="lj8UPPO37LnzZvMhCK-w-1">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="-40" as="sourcePoint" />
+            <mxPoint x="690" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-4" value="CarAdapterService进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="lj8UPPO37LnzZvMhCK-w-3">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#FF0000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="-40" as="sourcePoint" />
+            <mxPoint x="1180" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lj8UPPO37LnzZvMhCK-w-6" value="SystemServer进程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="lj8UPPO37LnzZvMhCK-w-5">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
