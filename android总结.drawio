@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T03:12:10.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="cJ3axdOqgFkf-OJrU8r-" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-28T03:12:34.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1NT3-J55zzADd7gpmQj8" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2295,9 +2295,6 @@
         </mxCell>
         <mxCell id="wq3YrpfoRvIx-PpalHi4-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;frameworks/base/services/hsae/&lt;/span&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1176" y="280" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wq3YrpfoRvIx-PpalHi4-2" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:10.5pt;mso-bidi-font-size:&#xa;11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;mso-ascii-theme-font:minor-latin;&#xa;mso-fareast-font-family:宋体;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:&#xa;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;system/CanService/&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-280" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wq3YrpfoRvIx-PpalHi4-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：system/CanService/&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="380" width="250" height="30" as="geometry" />
