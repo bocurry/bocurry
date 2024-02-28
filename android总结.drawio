@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T01:35:11.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1toVHz6TiOX763Ptpuj9" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-28T01:36:00.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="--wkkrF-eG8lKyKg2Onf" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2411,7 +2411,7 @@
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-28" value="DASetMeterSetting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uLsRn0Ntljifrc6Kd09A-27">
           <mxGeometry x="-0.0351" y="1" relative="1" as="geometry">
-            <mxPoint x="4" y="-6" as="offset" />
+            <mxPoint y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" edge="1" parent="1">
@@ -2438,7 +2438,7 @@
         <mxCell id="uLsRn0Ntljifrc6Kd09A-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-37">
           <mxGeometry x="74.66666666666666" y="150" width="10.666666666666666" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="uLsRn0Ntljifrc6Kd09A-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="uLsRn0Ntljifrc6Kd09A-24">
+        <mxCell id="uLsRn0Ntljifrc6Kd09A-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" edge="1" parent="1" source="uLsRn0Ntljifrc6Kd09A-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1270" y="207" as="targetPoint" />
             <Array as="points">
@@ -2452,7 +2452,7 @@
             <mxPoint x="28" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uLsRn0Ntljifrc6Kd09A-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="uLsRn0Ntljifrc6Kd09A-32" target="uLsRn0Ntljifrc6Kd09A-40">
+        <mxCell id="uLsRn0Ntljifrc6Kd09A-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#E07A5F;" edge="1" parent="1" source="uLsRn0Ntljifrc6Kd09A-32" target="uLsRn0Ntljifrc6Kd09A-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-44" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
