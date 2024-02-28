@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T02:12:31.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_j-gZQNV93x-3FMpXVlE" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-28T02:13:07.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FTUTfHcO3v0zziMuTPrq" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2269,6 +2269,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QcJSdecGiqEN5QXDN2Ox-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SystemServer进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-6">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-8" value="hsae.hardware.canserver@1.0-service" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1471" y="-40" as="sourcePoint" />
+            <mxPoint x="1870" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;hsae.hardware.canserver@1.0-service进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-9">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
