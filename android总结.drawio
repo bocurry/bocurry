@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T02:19:35.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="g7pnaew_V6ZRtGCaibrd" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-28T03:08:49.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4rwlMhskJhMLIdYJd-a6" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1581,7 +1581,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DVM9Aoyhxo5UVm9Cve4c" name="航盛胎压调用流程">
-    <mxGraphModel dx="2774" dy="2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="3140" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2275,11 +2275,23 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="4zadyBb1zL4EXtQjc-RT-1" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：package/apps/CustomApi&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMVtZx9wlg82x8RIUdy6-1" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;packages/apps/CarAdapterService&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="220" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qjtgRNaK2sTPrKpd4ETw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_carapi/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="240" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qjtgRNaK2sTPrKpd4ETw-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_vehicle/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="172" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Ul2Gvzj0HRNXM7a2pW-r" name="ADAS接口架构">
-    <mxGraphModel dx="2774" dy="2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2883" dy="2164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2366,7 +2378,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180" y="50" width="240" height="340" as="geometry" />
+          <mxGeometry x="180" y="50" width="480" height="340" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-1" value="AdasImpl&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-9">
           <mxGeometry x="40" y="40" width="160" height="300" as="geometry" />
@@ -2377,8 +2389,14 @@
         <mxCell id="uLsRn0Ntljifrc6Kd09A-7" value="&lt;div&gt;package com.hsae.caradapterservice.vehicle.adas;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=230;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-9">
           <mxGeometry width="240" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-5" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;packages/apps/CarAdapterService&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-9">
+          <mxGeometry y="220" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_carapi/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-9">
+          <mxGeometry x="270" y="220" width="210" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="448" y="50" width="210" height="340" as="geometry" />
+          <mxGeometry x="448" y="50" width="222" height="340" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-11" value="MeterManager&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-10">
           <mxGeometry x="35" y="40" width="140" height="300" as="geometry" />
@@ -2435,6 +2453,9 @@
         <mxCell id="uLsRn0Ntljifrc6Kd09A-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-22">
           <mxGeometry x="98" y="140" width="14" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;frameworks/base/services/hsae/&lt;/span&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-22">
+          <mxGeometry x="-152" y="230" width="250" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeColor=#E07A5F;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="195" as="sourcePoint" />
@@ -2453,13 +2474,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-30" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1200" y="50" width="150" height="340" as="geometry" />
+          <mxGeometry x="1200" y="50" width="260" height="340" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-31" value="Meter_serverImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-30">
           <mxGeometry x="24.999999999999996" y="40" width="99.99999999999999" height="300" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-30">
           <mxGeometry x="70" y="150" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-15" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：system/metersocket/meterhal/&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="uLsRn0Ntljifrc6Kd09A-30">
+          <mxGeometry x="110" y="240" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-37" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1450" y="50" width="160" height="340" as="geometry" />
@@ -2603,6 +2627,21 @@
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Na3GHiN-OtmavfbxZYBx-1" value="HSAE APPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-1" value="3RD PARTY APPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-2" value="ADAPTER SERVICE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-3" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：package/apps/CustomApi&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xrDIymomS2FOSDg0zp6z-14" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:10.5pt;mso-bidi-font-size:&#xa;11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;mso-ascii-theme-font:minor-latin;&#xa;mso-fareast-font-family:宋体;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:&#xa;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&#xa;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;system/metersocket/meterhal/&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
