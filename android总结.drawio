@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T01:36:00.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="--wkkrF-eG8lKyKg2Onf" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-28T02:12:31.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_j-gZQNV93x-3FMpXVlE" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1585,229 +1585,201 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-1" value="customapi.jar" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="40" y="50" width="150" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-1" value="package com.dfl.api.impl" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="50" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TireManager&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="71" y="90" width="100" height="300" as="geometry" />
+          <mxGeometry x="-19" y="90" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" parent="yNPcAZxTHAfbkra_I7F4-2" vertex="1">
           <mxGeometry x="45" y="65" width="10" height="35" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-4" value="TirePressureImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="245" y="90" width="100" height="300" as="geometry" />
+          <mxGeometry x="196" y="90" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-4" vertex="1">
+          <mxGeometry x="43.5" y="65" width="10" height="25" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-5" value="TirePressureManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="408" y="90" width="120" height="300" as="geometry" />
+          <mxGeometry x="395" y="90" width="120" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-5" vertex="1">
           <mxGeometry x="55" y="75" width="10" height="25" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-7" value="TirePressureService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="584" y="90" width="120" height="300" as="geometry" />
+          <mxGeometry x="580" y="90" width="120" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-7" vertex="1">
           <mxGeometry x="55" y="80" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-9" value="CanManagerCd&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="750" y="90" width="100" height="300" as="geometry" />
+          <mxGeometry x="776" y="90" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-9" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-11" value="CanManager&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="920" y="90" width="90" height="300" as="geometry" />
+          <mxGeometry x="991" y="90" width="90" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-11" vertex="1">
           <mxGeometry x="40" y="98" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-13" value="CarAdapterService.apk" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=143;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="219" y="50" width="153" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-13" value="package com.hsae.caradapterservice.vehicle.tire;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=220;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="130" y="50" width="229" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-14" value="carapi.jar" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="394" y="50" width="150" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-14" value="package com.hsae.carapi.tire;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=129;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="381" y="50" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-15" value="moduleVehicle.jar" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="570" y="50" width="150" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-15" value="package com.hsae.carservice.vehicle;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="560" y="50" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-16" value="getTirePressure(AIDL)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-17" edge="1">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-16" value="getTirePressure(AIDL)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;exitX=1;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="yNPcAZxTHAfbkra_I7F4-17" edge="1" source="yNPcAZxTHAfbkra_I7F4-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="165" as="sourcePoint" />
-            <mxPoint x="290" y="165" as="targetPoint" />
+            <mxPoint x="108" y="165" as="sourcePoint" />
+            <mxPoint x="277" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="290" y="163" width="10" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-18" value="getTirePressure" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-6" edge="1">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-18" value="getTirePressure" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-6" edge="1" source="yNPcAZxTHAfbkra_I7F4-4">
           <mxGeometry x="0.0021" relative="1" as="geometry">
-            <mxPoint x="302" y="170" as="sourcePoint" />
+            <mxPoint x="289" y="170" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-19" value="getTirePressure(AIDL)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-7" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="473" y="175" as="sourcePoint" />
-            <mxPoint x="543" y="175" as="targetPoint" />
+            <mxPoint x="460" y="175" as="sourcePoint" />
+            <mxPoint x="530" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-20" value="运行在HsaeCarService进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="559" y="20" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-21" value="moduleBase.jar" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="739" y="50" width="130" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-21" value="package com.hsae.carservice.base.canutil;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=181;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="739" y="50" width="191" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-22" value="getCanSignalByValue" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="yNPcAZxTHAfbkra_I7F4-7" target="yNPcAZxTHAfbkra_I7F4-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="185" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-23" value="hsae.core.jar" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="900" y="50" width="130" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-23" value="package com.hsae.hsaesdk.canservice;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=168;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="952" y="50" width="178" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-24" value="hsae.core.jar包在了&lt;br&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsae.framework&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsaesdk_internal&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;的动态库中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="869" y="320" width="200" height="60" as="geometry" />
+          <mxGeometry x="921" y="320" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-25" value="getCanSignalByValue" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-12" edge="1">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-25" value="getCanSignalByValue" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-12" edge="1" source="yNPcAZxTHAfbkra_I7F4-10">
           <mxGeometry x="0.0044" relative="1" as="geometry">
             <mxPoint x="810" y="193" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-26" value="hsae.services.jar" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="50" width="300" height="90" as="geometry" />
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-26" value="&lt;div&gt;package com.hsae.server.canservice;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=269;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="1161" y="50" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-27" value="CanManagerService&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1075" y="90" width="115" height="300" as="geometry" />
+          <mxGeometry x="1176" y="90" width="115" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-27" vertex="1">
           <mxGeometry x="52.5" y="110" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-29" value="getCanSignalByValue(AIDL)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;dashed=1;" parent="1" target="yNPcAZxTHAfbkra_I7F4-28" edge="1">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-29" value="getCanSignalByValue(AIDL)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;dashed=1;" parent="1" target="yNPcAZxTHAfbkra_I7F4-28" edge="1" source="yNPcAZxTHAfbkra_I7F4-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="970" y="205" as="sourcePoint" />
+            <mxPoint x="1040" y="205" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-30" value="CanHidlClient&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="90" width="115" height="300" as="geometry" />
+          <mxGeometry x="1331" y="90" width="115" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-30" vertex="1">
           <mxGeometry x="52.5" y="120" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-32" value="getCanSignalByValue" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-31" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1135" y="215" as="sourcePoint" />
+            <mxPoint x="1236" y="215" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-33" value="CanServerImpl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1442.5" y="90" width="115" height="300" as="geometry" />
+          <mxGeometry x="1543.5" y="90" width="115" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-33" vertex="1">
           <mxGeometry x="52.5" y="130" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-35" value="hsae.hardware.canserver@1.0-impl.so" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=230;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1380" y="50" width="370" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-36" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;原本是运行在hsae.hardware.canserver@1.0-service进程，&lt;br&gt;但是改到了hsae.hardware.devipc@1.0-service进程&lt;br&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;这个进程以及so都是由IPC&lt;/span&gt;&lt;span style=&quot;&quot;&gt;这个组负责，可以查看&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:&lt;br/&gt;Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="330" width="390" height="60" as="geometry" />
+          <mxGeometry x="1471" y="330" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-37" value="getCanSignalByValue(HIDL)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-33" edge="1">
           <mxGeometry x="0.0025" relative="1" as="geometry">
-            <mxPoint x="1294.5" y="230" as="sourcePoint" />
-            <mxPoint x="1442.5" y="230" as="targetPoint" />
+            <mxPoint x="1395.5" y="230" as="sourcePoint" />
+            <mxPoint x="1543.5" y="230" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-38" value="CanMsgParse&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1636.5" y="90" width="100" height="300" as="geometry" />
+          <mxGeometry x="1737.5" y="90" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-38" vertex="1">
           <mxGeometry x="45" y="150" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-40" value="parseCanRxMsg" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="yNPcAZxTHAfbkra_I7F4-33" target="yNPcAZxTHAfbkra_I7F4-39" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1610" y="245" as="sourcePoint" />
+            <mxPoint x="1711" y="245" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="204" y="410" as="sourcePoint" />
-            <mxPoint x="204" y="-60" as="targetPoint" />
+            <mxPoint x="114" y="410" as="sourcePoint" />
+            <mxPoint x="114" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-42" value="APP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="90" width="100" height="300" as="geometry" />
+          <mxGeometry x="-200" y="90" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-43" value="getTirePressure" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" source="yNPcAZxTHAfbkra_I7F4-42" target="yNPcAZxTHAfbkra_I7F4-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="185" as="sourcePoint" />
+            <mxPoint x="-40" y="185" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="90" y="160" />
-              <mxPoint x="90" y="160" />
+              <mxPoint y="160" />
+              <mxPoint y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-44" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="400" as="sourcePoint" />
-            <mxPoint x="20" y="-70" as="targetPoint" />
+            <mxPoint x="-70" y="400" as="sourcePoint" />
+            <mxPoint x="-70" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1370" y="400" as="sourcePoint" />
-            <mxPoint x="1370" y="-70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="208" y="-40" as="sourcePoint" />
-            <mxPoint x="1370" y="-40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-47" value="framework" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=27;" parent="yNPcAZxTHAfbkra_I7F4-46" vertex="1" connectable="0">
-          <mxGeometry x="-0.1274" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-48" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1370" y="-40" as="sourcePoint" />
-            <mxPoint x="1770" y="-40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-49" value="HAL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=27;" parent="yNPcAZxTHAfbkra_I7F4-48" vertex="1" connectable="0">
-          <mxGeometry x="-0.1274" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1471" y="400" as="sourcePoint" />
+            <mxPoint x="1471" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" as="sourcePoint" />
-            <mxPoint x="390" as="targetPoint" />
+            <mxPoint x="120" as="sourcePoint" />
+            <mxPoint x="377" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-51" value="adapterService//logicService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=12;" parent="yNPcAZxTHAfbkra_I7F4-50" vertex="1" connectable="0">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-51" value="CarAdapterService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=12;" parent="yNPcAZxTHAfbkra_I7F4-50" vertex="1" connectable="0">
           <mxGeometry x="0.0461" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-52" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="385" y="400" as="sourcePoint" />
-            <mxPoint x="385" y="-70" as="targetPoint" />
+            <mxPoint x="372" y="400" as="sourcePoint" />
+            <mxPoint x="372" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-53" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="559" y="400" as="sourcePoint" />
-            <mxPoint x="559" y="-70" as="targetPoint" />
+            <mxPoint x="546" y="400" as="sourcePoint" />
+            <mxPoint x="546" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="-1" as="sourcePoint" />
-            <mxPoint x="560" y="-1" as="targetPoint" />
+            <mxPoint x="367" y="-1" as="sourcePoint" />
+            <mxPoint x="547" y="-1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-55" value="CarApi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-54" vertex="1" connectable="0">
@@ -1817,79 +1789,76 @@
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-56" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="410.5" as="sourcePoint" />
-            <mxPoint x="890" y="-59.5" as="targetPoint" />
+            <mxPoint x="942" y="410.5" as="sourcePoint" />
+            <mxPoint x="942" y="-59.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="559" y="-1" as="sourcePoint" />
-            <mxPoint x="890" y="-1" as="targetPoint" />
+            <mxPoint x="550" as="sourcePoint" />
+            <mxPoint x="740" y="-1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-58" value="CarService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-57" vertex="1" connectable="0">
-          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;moduleVehicle&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yNPcAZxTHAfbkra_I7F4-57">
+          <mxGeometry x="-0.0681" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-59" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="-1" as="sourcePoint" />
-            <mxPoint x="1040" y="-1" as="targetPoint" />
+            <mxPoint x="942" y="-1" as="sourcePoint" />
+            <mxPoint x="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-60" value="HSAE API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-59" vertex="1" connectable="0">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-60" value="hsae.core" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-59" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-61" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="380" as="sourcePoint" />
-            <mxPoint x="1040" y="-90" as="targetPoint" />
+            <mxPoint x="1146" y="380" as="sourcePoint" />
+            <mxPoint x="1146" y="-90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="-1" as="sourcePoint" />
-            <mxPoint x="1370" y="-1" as="targetPoint" />
+            <mxPoint x="1150" as="sourcePoint" />
+            <mxPoint x="1470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-63" value="HSAE Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-62" vertex="1" connectable="0">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-63" value="hsae.services" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-62" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="-7" y="-1" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-64" value="运行在SystemServer进程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="1069" y="18" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-65" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1770" y="400" as="sourcePoint" />
-            <mxPoint x="1770" y="-70" as="targetPoint" />
+            <mxPoint x="1871" y="400" as="sourcePoint" />
+            <mxPoint x="1871" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-66" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1370" y="-1" as="sourcePoint" />
-            <mxPoint x="1770" y="-1" as="targetPoint" />
+            <mxPoint x="1471" y="-1" as="sourcePoint" />
+            <mxPoint x="1871" y="-1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-67" value="hsae.hardware.devipc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-66" vertex="1" connectable="0">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-67" value="hsae.hardware.canserver@1.0-impl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-66" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-68" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-140" y="400" as="sourcePoint" />
-            <mxPoint x="-140" y="-70" as="targetPoint" />
+            <mxPoint x="-230" y="400" as="sourcePoint" />
+            <mxPoint x="-230" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-140" y="-1" as="sourcePoint" />
-            <mxPoint x="20" as="targetPoint" />
+            <mxPoint x="-230" y="-1" as="sourcePoint" />
+            <mxPoint x="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-70" value="应用APP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-69" vertex="1" connectable="0">
@@ -1899,8 +1868,8 @@
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-71" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" as="sourcePoint" />
-            <mxPoint x="200" y="1" as="targetPoint" />
+            <mxPoint x="-70" as="sourcePoint" />
+            <mxPoint x="110" y="1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-72" value="CustomApi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="yNPcAZxTHAfbkra_I7F4-71" vertex="1" connectable="0">
@@ -1909,7 +1878,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-73" value="logicService是一个概念，并不是实体。&lt;br&gt;而是很多逻辑复杂的Service，单独成为APK，&lt;br&gt;统一称为logicService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="160" y="290" width="270" height="60" as="geometry" />
+          <mxGeometry x="109.5" y="240" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-74" value="hsae.core.jar包在了&lt;br&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsae.framework&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsaesdk_internal&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;的动态库中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="570" y="240" width="200" height="60" as="geometry" />
@@ -2243,6 +2212,67 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-148" value="hsae.core.jar包在了&lt;br&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsae.framework&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsaesdk_internal&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;的动态库中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="576" y="910" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739" y="410" as="sourcePoint" />
+            <mxPoint x="739" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739" y="-1" as="sourcePoint" />
+            <mxPoint x="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-6" value="moduleBase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="Q96QZ4GwXJBONfFbpBFB-5">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6PDiSiQXT1j3QQ_aS3x-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-226" y="-40" as="sourcePoint" />
+            <mxPoint x="118" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6PDiSiQXT1j3QQ_aS3x-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应用进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="H6PDiSiQXT1j3QQ_aS3x-1">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="117" y="-40" as="sourcePoint" />
+            <mxPoint x="547" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;CarAdapterService进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-1">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="-40" as="sourcePoint" />
+            <mxPoint x="1140" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HsaeCarService进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-4">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1146.75" y="-40" as="sourcePoint" />
+            <mxPoint x="1475.25" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SystemServer进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-6">
+          <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -2315,7 +2345,7 @@
         </mxCell>
         <mxCell id="uLsRn0Ntljifrc6Kd09A-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="P8ZX8JqNqqz6v7WP9ucm-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="173" as="targetPoint" />
+            <mxPoint x="290" y="173" as="targetPoint" />
             <Array as="points">
               <mxPoint x="240" y="173" />
               <mxPoint x="240" y="173" />
