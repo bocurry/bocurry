@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T02:16:40.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MVKaOXZBYnym6K-cpWWt" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-28T02:19:35.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="g7pnaew_V6ZRtGCaibrd" version="23.1.1" type="github" pages="8">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1699,7 +1699,7 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-33" vertex="1">
           <mxGeometry x="52.5" y="130" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-36" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;原本是运行在hsae.hardware.canserver@1.0-service进程，&lt;br&gt;但是改到了hsae.hardware.devipc@1.0-service进程&lt;br&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;这个进程以及so都是由IPC&lt;/span&gt;&lt;span style=&quot;&quot;&gt;这个组负责，可以查看&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:&lt;br/&gt;Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-36" value="&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;原本是运行在hsae.hardware.canserver@1.0-service进程，&lt;br&gt;但是改到了hsae.hardware.devipc@1.0-service进程&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:&lt;br/&gt;Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="1471" y="330" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yNPcAZxTHAfbkra_I7F4-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getCanSignalByValue(HIDL)&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-33" edge="1">
@@ -2270,7 +2270,7 @@
             <mxPoint x="1870" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;hsae.hardware.canserver@1.0-service进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-9">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;hsae.hardware.devipc@1.0-service进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-9">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
