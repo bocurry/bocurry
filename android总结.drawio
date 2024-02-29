@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T03:12:34.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1NT3-J55zzADd7gpmQj8" version="23.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-02-29T07:18:30.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="C1kcRIRfyllLcu8HGuVF" version="23.1.1" type="github" pages="9">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -2651,6 +2651,142 @@
         </mxCell>
         <mxCell id="xrDIymomS2FOSDg0zp6z-3" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：package/apps/CustomApi&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="260" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Eu3pgf34RkKj1dttn0Dc" name="甲方调研">
+    <mxGraphModel dx="2074" dy="2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UWuy7gqGULIk6M5weVaG-1" value="&lt;h1 style=&quot;box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-stretch: inherit; font-size: 20px; line-height: 28px; font-family: &amp;quot;SF Pro Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Tahoma, Arial, &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, &amp;quot;PingFang SC&amp;quot;, 苹方, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: middle; cursor: pointer; display: inline-block; max-width: 914px; position: relative; text-align: start; background-color: rgb(255, 255, 255);&quot; class=&quot;index_company-name__LqKlo&quot;&gt;东风本田汽车有限公司&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-3" value="东风汽车集团股份有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-5" target="UWuy7gqGULIk6M5weVaG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-10" value="40%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-9">
+          <mxGeometry x="-0.3405" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-5" value="日本本田技研工业株式会社" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-6" target="UWuy7gqGULIk6M5weVaG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-12" value="10%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-11">
+          <mxGeometry x="-0.5343" y="-1" relative="1" as="geometry">
+            <mxPoint x="-29" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-6" value="本田技研工业（中国）投资有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-3" target="UWuy7gqGULIk6M5weVaG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="390" as="sourcePoint" />
+            <mxPoint x="370" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;50%&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-7">
+          <mxGeometry x="-0.144" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-13" target="UWuy7gqGULIk6M5weVaG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-15" value="70%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-14">
+          <mxGeometry x="-0.14" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-13" value="东风汽车集团有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-17" target="UWuy7gqGULIk6M5weVaG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-19" value="100%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-18">
+          <mxGeometry x="-0.0857" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-17" value="国务院国有资产监督管理委员会" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-20" value="东风汽车有限公司东风日产乘用车公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-23" target="UWuy7gqGULIk6M5weVaG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-25" value="100%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-24">
+          <mxGeometry x="-0.0471" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-23" target="UWuy7gqGULIk6M5weVaG-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-35" value="100%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-34">
+          <mxGeometry x="0.0333" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-23" value="东风汽车有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-26" target="UWuy7gqGULIk6M5weVaG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-32" value="50%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-30">
+          <mxGeometry x="-0.1083" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-26" value="日产（中国）投资有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-27" target="UWuy7gqGULIk6M5weVaG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-31" value="50%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-28">
+          <mxGeometry x="-0.1333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-27" value="&lt;div&gt;东风汽车集团股份有限公司&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="-130" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-33" value="东风汽车有限公司东风启辰汽车公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-36" value="70%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="956" y="-167" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-37" target="UWuy7gqGULIk6M5weVaG-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-37" value="东风汽车集团有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="889" y="-269" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UWuy7gqGULIk6M5weVaG-40" target="UWuy7gqGULIk6M5weVaG-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-39" value="100%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="UWuy7gqGULIk6M5weVaG-38">
+          <mxGeometry x="-0.0857" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWuy7gqGULIk6M5weVaG-40" value="国务院国有资产监督管理委员会" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="887" y="-400" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
