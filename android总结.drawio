@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T08:08:35.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="h4IW1pJrLA0nYH0nyINX" version="23.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-03-01T06:41:06.141Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Xx9WbUU02G4wMCJZcbho" version="23.1.1" type="github" pages="9">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -3091,6 +3091,64 @@
         </mxCell>
         <mxCell id="bR8XWiFLptDoB-vvk8AE-113" value="其余个人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1393" y="-930" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-1" value="&lt;h1 style=&quot;box-sizing: border-box; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-stretch: inherit; font-size: 20px; line-height: 28px; font-family: &amp;quot;SF Pro Text&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Tahoma, Arial, &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, &amp;quot;PingFang SC&amp;quot;, 苹方, sans-serif; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: middle; cursor: pointer; display: inline-block; max-width: 914px; position: relative; background-color: rgb(255, 255, 255);&quot; class=&quot;index_company-name__LqKlo&quot;&gt;成都航盛智行科技有限公司&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="-650" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-2" target="kHxkqevR-rRZOo_Unscm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-4" value="17%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-3">
+          <mxGeometry x="-0.0947" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-2" value="深圳市人民政府国有资产监督管理委员会" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-899" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-5" target="kHxkqevR-rRZOo_Unscm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-7" value="7.6%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-6">
+          <mxGeometry x="-0.1795" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-5" value="国务院国有资产监督管理委员会" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2026" y="-899" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-8" target="kHxkqevR-rRZOo_Unscm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-10" value="13%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-9">
+          <mxGeometry x="0.0031" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-8" value="杨洪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="-900" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-11" target="kHxkqevR-rRZOo_Unscm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-13" value="26%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-12">
+          <mxGeometry x="-0.0879" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-11" value="其余个人" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2452.82" y="-900" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-19" target="kHxkqevR-rRZOo_Unscm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-21" value="4%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-20">
+          <mxGeometry x="-0.1168" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-19" value="陈炜其" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2521" y="-900" width="50" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
