@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T06:43:02.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="AmdgJPjmb5_tU3dZE55u" version="23.1.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-03-01T06:49:26.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="juY75QRlUCsWSDHsBbxZ" version="23.1.1" type="github" pages="9">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -3084,7 +3084,7 @@
         <mxCell id="bR8XWiFLptDoB-vvk8AE-115" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bR8XWiFLptDoB-vvk8AE-113" target="bR8XWiFLptDoB-vvk8AE-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bR8XWiFLptDoB-vvk8AE-116" value="26%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="bR8XWiFLptDoB-vvk8AE-115">
+        <mxCell id="bR8XWiFLptDoB-vvk8AE-116" value="29.5%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="bR8XWiFLptDoB-vvk8AE-115">
           <mxGeometry x="-0.0229" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3131,7 +3131,7 @@
         <mxCell id="kHxkqevR-rRZOo_Unscm-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-11" target="kHxkqevR-rRZOo_Unscm-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kHxkqevR-rRZOo_Unscm-13" value="26%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-12">
+        <mxCell id="kHxkqevR-rRZOo_Unscm-13" value="29.5%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-12">
           <mxGeometry x="-0.0879" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -3149,6 +3149,17 @@
         </mxCell>
         <mxCell id="kHxkqevR-rRZOo_Unscm-19" value="陈炜其" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2521" y="-900" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kHxkqevR-rRZOo_Unscm-25" target="bR8XWiFLptDoB-vvk8AE-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-28" value="40%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="kHxkqevR-rRZOo_Unscm-26">
+          <mxGeometry x="-0.1037" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kHxkqevR-rRZOo_Unscm-25" value="嘉天荣（深圳）贸易有限公司" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-1240" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
