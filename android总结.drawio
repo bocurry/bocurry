@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T02:33:02.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mRf61z5auMBY49cxu2Nl" version="24.0.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-03-07T02:39:43.688Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="D1tIVh_HpHWWWvijtuiv" version="24.0.1" type="github" pages="10">
   <diagram name="AMS的启动" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="2074" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1581,7 +1581,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DVM9Aoyhxo5UVm9Cve4c" name="航盛胎压调用流程">
-    <mxGraphModel dx="3140" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="2774" dy="2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1633,13 +1633,13 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-15" value="package com.hsae.carservice.vehicle;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=160;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="560" y="50" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getTirePressure(AIDL)&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;exitX=1;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="yNPcAZxTHAfbkra_I7F4-17" edge="1" source="yNPcAZxTHAfbkra_I7F4-3">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-16" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getTirePressure(AIDL)&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;elbow=vertical;dashed=1;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;exitX=1;exitY=0.343;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="yNPcAZxTHAfbkra_I7F4-3" target="yNPcAZxTHAfbkra_I7F4-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="108" y="165" as="sourcePoint" />
             <mxPoint x="277" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getTirePressure&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-6" edge="1" source="yNPcAZxTHAfbkra_I7F4-4">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-18" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getTirePressure&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="yNPcAZxTHAfbkra_I7F4-4" target="yNPcAZxTHAfbkra_I7F4-6" edge="1">
           <mxGeometry x="0.0021" relative="1" as="geometry">
             <mxPoint x="289" y="170" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -1662,7 +1662,7 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-23" value="package com.hsae.hsaesdk.canservice;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=168;height=30;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="952" y="50" width="178" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getCanSignalByValue&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" target="yNPcAZxTHAfbkra_I7F4-12" edge="1" source="yNPcAZxTHAfbkra_I7F4-10">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getCanSignalByValue&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="yNPcAZxTHAfbkra_I7F4-10" target="yNPcAZxTHAfbkra_I7F4-12" edge="1">
           <mxGeometry x="0.0044" relative="1" as="geometry">
             <mxPoint x="810" y="193" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -1677,7 +1677,7 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="yNPcAZxTHAfbkra_I7F4-27" vertex="1">
           <mxGeometry x="52.5" y="110" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yNPcAZxTHAfbkra_I7F4-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getCanSignalByValue(AIDL)&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;dashed=1;" parent="1" target="yNPcAZxTHAfbkra_I7F4-28" edge="1" source="yNPcAZxTHAfbkra_I7F4-11">
+        <mxCell id="yNPcAZxTHAfbkra_I7F4-29" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;getCanSignalByValue(AIDL)&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;elbow=vertical;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;dashed=1;" parent="1" source="yNPcAZxTHAfbkra_I7F4-11" target="yNPcAZxTHAfbkra_I7F4-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1040" y="205" as="sourcePoint" />
           </mxGeometry>
@@ -1796,7 +1796,7 @@
             <mxPoint x="740" y="-1" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q96QZ4GwXJBONfFbpBFB-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;moduleVehicle&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yNPcAZxTHAfbkra_I7F4-57">
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;moduleVehicle&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yNPcAZxTHAfbkra_I7F4-57" vertex="1" connectable="0">
           <mxGeometry x="-0.0681" relative="1" as="geometry">
             <mxPoint x="6" as="offset" />
           </mxGeometry>
@@ -2203,100 +2203,100 @@
         <mxCell id="yNPcAZxTHAfbkra_I7F4-148" value="hsae.core.jar包在了&lt;br&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsae.framework&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;以及&lt;/span&gt;&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:宋体;mso-fareast-theme-font:&lt;br/&gt;minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;hsaesdk_internal&lt;/span&gt;&lt;span style=&quot;font-size:&lt;br/&gt;10.5pt;mso-bidi-font-size:11.0pt;font-family:宋体;mso-ascii-font-family:Calibri;&lt;br/&gt;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font:minor-fareast;&lt;br/&gt;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;&lt;br/&gt;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot;&gt;的动态库中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="576" y="910" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q96QZ4GwXJBONfFbpBFB-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#606fe1;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;fontSize=25;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="739" y="410" as="sourcePoint" />
             <mxPoint x="739" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q96QZ4GwXJBONfFbpBFB-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="739" y="-1" as="sourcePoint" />
             <mxPoint x="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q96QZ4GwXJBONfFbpBFB-6" value="moduleBase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="Q96QZ4GwXJBONfFbpBFB-5">
+        <mxCell id="Q96QZ4GwXJBONfFbpBFB-6" value="moduleBase" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="Q96QZ4GwXJBONfFbpBFB-5" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H6PDiSiQXT1j3QQ_aS3x-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="H6PDiSiQXT1j3QQ_aS3x-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-226" y="-40" as="sourcePoint" />
             <mxPoint x="118" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H6PDiSiQXT1j3QQ_aS3x-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应用进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="H6PDiSiQXT1j3QQ_aS3x-1">
+        <mxCell id="H6PDiSiQXT1j3QQ_aS3x-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;应用进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="H6PDiSiQXT1j3QQ_aS3x-1" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="117" y="-40" as="sourcePoint" />
             <mxPoint x="547" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;CarAdapterService进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-1">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;CarAdapterService进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="QcJSdecGiqEN5QXDN2Ox-1" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="-40" as="sourcePoint" />
             <mxPoint x="1140" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HsaeCarService进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-4">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HsaeCarService进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="QcJSdecGiqEN5QXDN2Ox-4" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1146.75" y="-40" as="sourcePoint" />
             <mxPoint x="1475.25" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SystemServer进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-6">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;SystemServer进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="QcJSdecGiqEN5QXDN2Ox-6" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1471" y="-40" as="sourcePoint" />
             <mxPoint x="1870" y="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QcJSdecGiqEN5QXDN2Ox-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;hsae.hardware.devipc@1.0-service进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" vertex="1" connectable="0" parent="QcJSdecGiqEN5QXDN2Ox-9">
+        <mxCell id="QcJSdecGiqEN5QXDN2Ox-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;hsae.hardware.devipc@1.0-service进程&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;fontSize=13;" parent="QcJSdecGiqEN5QXDN2Ox-9" vertex="1" connectable="0">
           <mxGeometry x="0.0407" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4zadyBb1zL4EXtQjc-RT-1" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：package/apps/CustomApi&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4zadyBb1zL4EXtQjc-RT-1" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：package/apps/CustomApi&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="220" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eMVtZx9wlg82x8RIUdy6-1" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;packages/apps/CarAdapterService&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eMVtZx9wlg82x8RIUdy6-1" value="&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;目录：&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;packages/apps/CarAdapterService&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="131" y="220" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qjtgRNaK2sTPrKpd4ETw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_carapi/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjtgRNaK2sTPrKpd4ETw-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_carapi/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="378" y="240" width="172" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qjtgRNaK2sTPrKpd4ETw-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_vehicle/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qjtgRNaK2sTPrKpd4ETw-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_vehicle/&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="250" width="172" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wms_KPzU0JddltWck-nx-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_base&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wms_KPzU0JddltWck-nx-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Calibri, sans-serif&quot;&gt;packages/apps/CarService/&lt;br&gt;module_base&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="748.5" y="260" width="172" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wms_KPzU0JddltWck-nx-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：frameworks/base/core/java&lt;br&gt;/com/hsae/hsaesdk/canservice&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wms_KPzU0JddltWck-nx-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：frameworks/base/core/java&lt;br&gt;/com/hsae/hsaesdk/canservice&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="955" y="270" width="172" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wq3YrpfoRvIx-PpalHi4-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;frameworks/base/services/hsae/&lt;/span&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wq3YrpfoRvIx-PpalHi4-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;frameworks/base/services/hsae/&lt;/span&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1176" y="280" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wq3YrpfoRvIx-PpalHi4-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：system/CanService/&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wq3YrpfoRvIx-PpalHi4-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-family: Calibri, &amp;quot;sans-serif&amp;quot;;&quot;&gt;目录：system/CanService/&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1530" y="380" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
