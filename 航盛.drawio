@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T09:11:34.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="W7unH70RFKfhBRwqYZcO" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T09:14:00.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="OG71jDaEdz6GH3JiGGd-" version="24.1.0" type="github">
   <diagram name="Page-1" id="-Qllb_CpZKkKI1zAppgv">
-    <mxGraphModel dx="2074" dy="2206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2924" dy="2206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,6 +95,31 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="363" y="340" as="sourcePoint" />
             <mxPoint x="363" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJTk5yh9ha5H3XFf1cRf-3" value="IBaseApi是空的接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="226" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GJTk5yh9ha5H3XFf1cRf-5" value="&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:&lt;br/&gt;11.0pt;font-family:&amp;quot;Calibri&amp;quot;,&amp;quot;sans-serif&amp;quot;;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:宋体;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;AdasManager&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="678" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="GJTk5yh9ha5H3XFf1cRf-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GJTk5yh9ha5H3XFf1cRf-5">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GJTk5yh9ha5H3XFf1cRf-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="GJTk5yh9ha5H3XFf1cRf-5">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="GJTk5yh9ha5H3XFf1cRf-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="GJTk5yh9ha5H3XFf1cRf-5">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GJTk5yh9ha5H3XFf1cRf-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="GJTk5yh9ha5H3XFf1cRf-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="688" as="sourcePoint" />
+            <mxPoint x="320" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="110" />
+              <mxPoint x="321" y="110" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
